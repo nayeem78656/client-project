@@ -1,0 +1,103 @@
+/* <div class="login_container">
+        <div class="outer_container">
+          <h2 class="hello_text">Welcome</h2>
+          <div class="inner_container">
+            <form class="login_form">
+              <div class="username">
+                <label for="username" class="u_label">Username *</label>
+                <input type="text" placeholder="Enter your Username" id="username" name="username" class="input_user">
+              </div>
+              <div class="password">
+                <label for="password" class="p_label">Password *</label>
+                <input type="text" placeholder="Enter your Password" id="password" name="password" class="input_pass">
+              </div>
+              <input type="checkbox" id="checkbox" value="On">
+              <label for="checkbox" class="checkbox_label">Remember me</label>
+              <button class="login">Login</button>
+            </form>
+          </div>
+          <a href="#" class="f_password">Forgot password?</a>
+          <a href="#" class="no_account">Don't have an account?</a>
+          </p>
+        </div>
+      </div> */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 1.4rem; */
+    font-family: sans-serif;
+}
+.login_container{
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+}      
+
+.outer_container{
+    background-color: white;
+    padding: 10px 15px;
+    text-align: center;
+    /* width: 350px; */
+}
+
+.inner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* width: 25rem; */
+}
+
+.hello_text{
+    text-align: center;
+}
+.username,.password{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.f_password,.no_account{
+    text-decoration: none;
+    color: coral;
+}
+.login{
+    width: 100%;
+    height: 2rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: rgb(232, 228, 228);
+}
+.input_user,.input_pass,.login{
+    margin-bottom: 15px;
+    
+}
+
+.u_label,.p_label{
+    margin-bottom: 5px;
+}
+.f_password{
+    margin-bottom: 50px;
+}
+.input_user,.input_pass{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    /* background-color: gray; */
+    border-style: solid;
+}
+.login{
+    margin-top: 5px;
+    background-color: rgb(231, 98, 50);
+    color: white;
+    font-size: 18px;
+}
+
+
