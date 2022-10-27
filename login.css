@@ -26,33 +26,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-size: 1.4rem; */
     font-family: sans-serif;
 }
 .login_container{
     display: flex;
-    width: 50vh;
-    height: 50vh;
+    width: 100vh;
+    height: 80vh;
     justify-content: center;
 }      
-
 .outer_container{
     background-color: white;
     padding: 10px 15px;
     text-align: center;
-    /* width: 350px; */
+    border-radius: 1rem;
 }
-
 .inner_container{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    /* width: 25rem; */
-}
+    margin: 5rem 5rem 1.5rem 5rem;
 
+}
 .hello_text{
     text-align: center;
+    font-size: 2.5rem;
+    padding: 5px;
 }
 .username,.password{
     display: flex;
@@ -71,16 +70,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
-    background-color: rgb(232, 228, 228);
+    margin-top: 4.5rem;
+    background-image: url("image/bg-01.webp");    
 }
 .input_user,.input_pass,.login{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     
 }
-
 .u_label,.p_label{
     margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(112, 111, 111);
 }
 .f_password{
     margin-bottom: 50px;
@@ -94,10 +94,20 @@ body{
     border-style: solid;
 }
 .login{
-    margin-top: 5px;
-    background-color: rgb(231, 98, 50);
+    margin-top: 20px;
     color: white;
-    font-size: 18px;
+    background-image: linear-gradient(to right,rgb(69, 190, 234),rgb(90, 142, 224),rgb(142, 75, 205),rgb(201, 52, 218));
+    font-size: 15px;
+    border-radius: 20px;
+    border-style: none;
+    height: 2.5rem;
 }
-
-
+.login:hover{
+    background-image: linear-gradient(to left,rgb(69, 190, 234),rgb(90, 142, 224),rgb(142, 75, 205),rgb(201, 52, 218)); 
+}
+.checkbox_label{
+    color: gray;
+}
+.input_user:focus,.input_pass:focus{
+    background-color: rgba(155, 121, 179, 0.486);
+}
