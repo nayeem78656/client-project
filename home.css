@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.home_container{
+    display: flex;
+    background-color: aqua;
+    height: 100vh;
+}
+aside{
+    background-color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+.user{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    margin: 15px;
+    border-style: double inset outset;
+    border-color: aquamarine;
+    border-width: 4px;
+    background-color: aquamarine;
+}
+.name{
+    text-align: center;
+}
+.email{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(84, 80, 80);
+}
+.line{
+    border: 1.5px solid rgb(92, 92, 233);
+    background-color: rgb(92, 92, 233);
+    border-radius: 15px;
+}
+.user_section{
+    text-align: start;
+    padding:  0 6px;
+}
+.user_section h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.log_out{
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right,rgb(69, 190, 234),rgb(90, 142, 224),rgb(142, 75, 205),rgb(201, 52, 218));
+    border-style: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    margin-right: 15px;
+    float: left;
+}
+.dashboard{
+    display: flex;
+}

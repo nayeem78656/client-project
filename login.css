@@ -101,6 +101,7 @@ body{
     border-radius: 20px;
     border-style: none;
     height: 2.5rem;
+    cursor: pointer;
 }
 .login:hover{
     background-image: linear-gradient(to left,rgb(69, 190, 234),rgb(90, 142, 224),rgb(142, 75, 205),rgb(201, 52, 218)); 
